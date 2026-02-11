@@ -8,7 +8,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)  
 [![AI](https://img.shields.io/badge/AI-LLM%20Powered-purple.svg)]()  
 
-🔗 **GitHub Repo:** https://github.com/your-username/ai-resume-matcher  
+🔗 **GitHub Repo:** https://ai-resume-analyzer-1-rzot.onrender.com/
 
 </div>
 
@@ -57,7 +57,7 @@ The system is built as a **full-stack web application** using React (frontend) a
 - LLM-based analysis  
 
 ### **Deployment**
-- Frontend: Render  (https://ai-resume-analyzer-1-rzot.onrender.com/ )
+- Frontend: Render 
 - Backend: Render  
 
 ---
