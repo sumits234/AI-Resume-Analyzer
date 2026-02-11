@@ -1,105 +1,80 @@
+<div align="center">
 
-AI Resume Matcher
-This project is an AI-powered resume shortlisting tool that evaluates how well a resume matches a given job description. It calculates a match score and provides feedback on skills and improvements needed for better ATS compatibility.
+# 🤖 AI Resume Analyzer  
+### Intelligent Resume–Job Matching Web Application Powered by AI  
 
-Features
-Upload a PDF resume and input a job description
+[![React](https://img.shields.io/badge/Frontend-React-blue.svg)](https://react.dev/)  
+[![FastAPI](https://img.shields.io/badge/Backend-FastAPI-green.svg)](https://fastapi.tiangolo.com/)  
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)  
+[![AI](https://img.shields.io/badge/AI-LLM%20Powered-purple.svg)]()  
 
-AI model (Gemini API) analyzes the resume against the job description
+🔗 **GitHub Repo:** https://github.com/your-username/ai-resume-matcher  
 
-Generates a match score (0–100) and brief feedback
+</div>
 
-Extracts text from PDF resumes using PyMuPDF
+---
 
-Built with FastAPI for backend and React for frontend
+## 🚀 Project Overview  
 
-Handles cross-origin requests with CORS middleware
+This project is an **AI-powered Resume Analyzer** that helps users evaluate how well their resume matches a given job description.  
 
-Tech Stack
-Backend: FastAPI, PyMuPDF, Google Generative AI (Gemini API)
+Instead of manually comparing resumes with job requirements, the system automatically:  
 
-Frontend: React, Vite
+✅ Extracts text from PDF resumes  
+✅ Analyzes job description  
+✅ Identifies strengths and gaps  
+✅ Generates a match score  
+✅ Provides actionable feedback  
 
-Other: dotenv for environment variables
+The system is built as a **full-stack web application** using React (frontend) and FastAPI (backend).
 
-Project Structure
+---
 
-ai-resume-matcher/
-│── backend/
-│   ├── main.py           # FastAPI server
-│   ├── .env              # API keys and environment variables
-│── frontend/
-│   ├── src/              # React code
-│   ├── package.json
-Installation & Setup
-1. Backend (FastAPI)
-Clone the repository:
+## ✨ Key Features  
 
+✅ Upload resume in **PDF format**  
+✅ Paste job description directly into the app  
+✅ AI-powered resume analysis  
+✅ Match percentage score visualization  
+✅ Identification of strengths  
+✅ Suggestions for improvement  
+✅ Downloadable analysis report  
+✅ Real-time feedback  
 
-git clone https://github.com/tobin4900/ai-resume-matcher.git
-Navigate to backend:
+---
 
+## 🧠 Tech Stack  
 
-cd ai-resume-matcher/backend
-Install dependencies:
+### **Frontend**
+- React (Vite)  
+- Tailwind CSS  
+- Lucide Icons  
 
+### **Backend**
+- FastAPI  
+- Python  
+- PDF text extraction  
+- LLM-based analysis  
 
-pip install -r requirements.txt
-Create a .env file and add your Gemini API key:
+### **Deployment**
+- Frontend: Render / Vercel  
+- Backend: Render  
 
-ini
-Copy
-Edit
-GEMINI_API_KEY=your_api_key_here
-Start the FastAPI server:
+---
 
-bash
-Copy
-Edit
-uvicorn main:app --reload
-API runs at:
+## ⚙️ System Architecture  
 
-
-http://localhost:8000
-2. Frontend (React)
-Navigate to frontend:
-
-
-cd ai-resume-matcher/frontend
-Install dependencies:
-
-
-npm install
-Start development server:
-
-
-npm run dev
-App runs at:
-
-
-http://localhost:5173
-API Documentation
-POST /match_resume
-Upload a PDF resume and provide a job description.
-
-Form Data:
-
-resume (file)
-
-job_description (string)
-
-Response:
-
-
-{
-  "result": "Match Score: 85/100\nFeedback: Resume is strong but add Python experience."
-}
-GET /
-Health check endpoint:
-
-
-{ "message": "Resume Matcher API is running." }
-Notes
-Make sure you have a valid Gemini API key.
-
-The backend must be running for the frontend to work properly.
+```txt
+User Uploads Resume (PDF)
+            ↓
+User Pastes Job Description
+            ↓
+Frontend (React UI)
+            ↓
+FastAPI Backend
+            ↓
+AI Analysis Engine
+            ↓
+Match Score + Insights Generated
+            ↓
+Results Displayed in UI
