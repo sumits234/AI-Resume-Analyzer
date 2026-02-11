@@ -219,7 +219,7 @@ export default function ResumeMatcher() {
       formData.append("resume", resumeFile);
       formData.append("job_description", jobDescription);
 
-      const response = await fetch("http://127.0.0.1:8000/match_resume", {
+      const response = await fetch("https://ai-resume-analyzer-4mec.onrender.com", {
         method: "POST",
         body: formData,
       });
