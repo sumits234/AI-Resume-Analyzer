@@ -8,7 +8,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)  
 [![AI](https://img.shields.io/badge/AI-LLM%20Powered-purple.svg)]()  
 
-🔗 **GitHub Repo:** https://ai-resume-analyzer-1-rzot.onrender.com/
+🔗 **Deploy Link:** https://ai-resume-analyzer-1-rzot.onrender.com/
 
 </div>
 
