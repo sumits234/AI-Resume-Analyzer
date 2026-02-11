@@ -57,7 +57,7 @@ The system is built as a **full-stack web application** using React (frontend) a
 - LLM-based analysis  
 
 ### **Deployment**
-- Frontend: Render / Vercel  
+- Frontend: Render  (https://ai-resume-analyzer-1-rzot.onrender.com/ )
 - Backend: Render  
 
 ---
